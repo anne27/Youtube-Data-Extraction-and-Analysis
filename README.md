@@ -5,6 +5,7 @@
 
 The data extracted includes video's "title","description","videoId","viewCount","likeCount","dislikeCount","commentCount" and channel's "channelTitle","viewCount","commentCount","subscriberCount". 
 As youtube allows only 25 results/page, I have used pagination using the "nextPageToken" to get the next page results.
+
   
   To use the script, in terminal run the following command:
  <b> $ python search_keyword.py --q keyword_to_search</b>
